@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Quicksand:wght@400;500;700&family=Ubuntu:wght@300;400&display=swap');
+:root {
+    --btn-color: #E0464C;
+    --secondary-color :#6AAACE;
+    --footer-color: #262626;
+
+  }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;  
+}
+body {
+    font-size: 16px;
+}
+.line {
+    width: 650px;
+    height: 2px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #FCB767;
+}
+/* NAVIGATION START */
+nav {
+    display: flex;
+    padding: 30px 50px 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav p {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+nav .navLinks {
+    display: flex;
+    gap: 20px;
+}
+nav .navLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+nav button {
+    background: none;
+    padding: 10px;
+    border-width: 1.5px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* NAVIGATION END */
+
+/* RIGHT CONTENT LAYOUT START */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+main .right {
+    padding-top: 50px;
+    padding-left: 30px;    
+}
+main .right .experience {
+    padding: 30px 0 20px 0;
+}
+main .right .right-btn {
+    padding: 0 0 20px 0;
+}
+main .right .finish-wrap {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}
+/* RIGHT CONTENT LAYOUT END */
+
+/* RIGHT CONTENT TYPOGRAPHY START */
+main .right .name h1 {
+    font-size: 3em;
+    position: relative;
+}
+main .right .name span {
+    position: absolute; top: 13px;
+    margin-left: 20px;
+    font-size: .4em !important;
+    width: 150px;
+    background-color: var(--secondary-color);
+    padding: 8px;
+    border-radius: 20px;
+}
+main .right .experience p {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 20px;
+}
+main .right .right-btn .hire {
+    width: 120px;
+    background-color: var(--btn-color);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main .right .right-btn .project-btn {
+    padding: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+main .right .right-footer {
+    background-color: var(--footer-color);
+    margin-top: 10px;
+    padding: 15px;
+    width: 550px;
+}
+main .right .right-footer img {
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block ;
+}
+main .right .right-footer h1 {
+    color: white;
+}
+main .right .right-footer a i  {
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+main .right .right-footer .sosmed-wrap {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+/* RIGHT CONTENT TYPOGRAPHY END */
+
+.left {
+    width: 55%;
+    padding: 20px;
+    background-color: #FCB767;
+    position: relative;
+    height: 87vh;
+    }
+.left h1 span{
+    color: brown;
+
+}    
+.left h1:nth-child(3) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left .projek-wrap img {
+    width: 300px;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.left .projek-wrap img:hover {
+    transform: rotate(2deg);
+}
